@@ -30,6 +30,7 @@ public class GroupCreationTests {
         driver.findElement(By.name("user")).sendKeys("admin");
         driver.findElement(By.name("pass")).sendKeys("secret");
         driver.findElement(By.xpath("//input[@type='submit']")).click();
+        driver.findElement(By.linkText("groups")).click();
 
 
 
